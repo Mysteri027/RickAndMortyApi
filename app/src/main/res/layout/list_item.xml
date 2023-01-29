@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/layout_bg">
+
+        <ImageView
+            android:id="@+id/character_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:src="@drawable/rick"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/character_name"
+                style="@style/MainScreenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Name: Rick Sanchez" />
+
+            <TextView
+                android:id="@+id/character_status"
+                style="@style/MainScreenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="status: Alive" />
+
+            <TextView
+                android:id="@+id/character_gender"
+                style="@style/MainScreenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="gender: Male" />
+
+            <TextView
+                android:id="@+id/character_origin"
+                style="@style/MainScreenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="origin: Earth (C-137)" />
+
+            <TextView
+                android:id="@+id/character_location"
+                style="@style/MainScreenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="location: Citadel of Ricks" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
