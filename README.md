@@ -2,4 +2,4 @@
 
 Приложение для работы с The Rick and Morty API
 
-![My Image](LigthTheme.png) ![My Image](Dark theme.png)
+![My Image](LigthTheme.png) ![My Image](DarkTheme.png)
